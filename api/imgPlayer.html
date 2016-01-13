@@ -28,7 +28,7 @@
 			}
 			return result;
 		};
-		['aside', 'header', 'footer', 'nav', 'section'].forEach(function (val) {
+		['aside', 'header', 'footer', 'nav', 'section', 'main'].forEach(function (val) {
 			document.createElement(val);
 		});
 		String.prototype.trim = String.prototype.trim || function () {
@@ -45,7 +45,7 @@
 	<!--S 头部-->
 <header id='j_header' class="header">
 	<h2 class="header_logo">
-		<a href="/halojs/" alt="JDC" title="JDC">HALO.JS</a>
+		<a href="/halojs/" alt="JDC" title="JDC">HaloJS</a>
 	</h2>
 	<nav>
 		<ul>
@@ -56,7 +56,7 @@
 				<a href="/halojs/download/" title="下载">下载</a>
 			</li>
 			<li>
-				<a href="http://github.com" title="GITHUB" target="_blank" rel="external">GITHUB</a>
+				<a href="https://github.com/o2team/halojs" title="GITHUB" target="_blank" rel="external">GITHUB</a>
 			</li>
 			<li>
 				<a href="http://aotu.io/about/" title="关于AOTU" target="_blank" rel="external">关于AOTU</a>
@@ -203,7 +203,7 @@
 				<script>
 					var disqus_config = function () {
 						this.page.url = 'http://aotu.io/halojs/api/imgPlayer.html';
-						this.page.identifier = 'cijbpwt4t004n0252thvzyump';
+						this.page.identifier = 'cijc9e9x0004nz7fy6129qxxb';
 					};
 					(function() {
 						var d = document, s = d.createElement('script');
@@ -256,10 +256,10 @@
 	<script type="text/javascript">
 		window.hexo = {};
 		hexo.config = JSON.parse(
-			'{"title":"Hexo","subtitle":null,"description":null,"author":"o2team","language":null,"timezone":null,"url":"http://aotu.io/halojs","root":"/halojs/","permalink":"api/:title.html","permalink_defaults":{},"source_dir":"source","public_dir":"public","tag_dir":"tags","archive_dir":"archives","category_dir":"categories","code_dir":"downloads/code","i18n_dir":":lang","skip_render":["demo/**","src/**"],"new_post_name":":title.md","default_layout":"doc","titlecase":false,"external_link":true,"filename_case":0,"render_drafts":false,"post_asset_folder":false,"relative_link":false,"future":true,"highlight":{"enable":false,"line_number":true,"auto_detect":true,"tab_replace":true},"default_category":"uncategorized","category_map":null,"tag_map":null,"date_format":"YYYY-MM-DD","time_format":"HH:mm:ss","per_page":0,"pagination_dir":"page","theme":"hexo-theme-doc","deploy":{"type":"git","repo":"https://github.com/o2team/halojs.git"},"archive_generator":{"per_page":0,"yearly":true,"monthly":true,"daily":false},"category_generator":{"per_page":0},"tag_generator":{"per_page":0},"index_generator":{"per_page":0},"marked":{"gfm":true,"pedantic":false,"sanitize":false,"tables":true,"breaks":true,"smartLists":true,"smartypants":true},"server":{"log":false,"ip":"0.0.0.0"}}'
+			'{"title":"Hexo","subtitle":null,"description":null,"author":"o2team","language":null,"timezone":null,"url":"http://aotu.io/halojs","root":"/halojs/","permalink":"api/:title.html","permalink_defaults":{},"source_dir":"source","public_dir":"public","tag_dir":"tags","archive_dir":"archives","category_dir":"categories","code_dir":"downloads/code","i18n_dir":":lang","skip_render":["demo/**","src/**"],"new_post_name":":title.md","default_layout":"doc","titlecase":false,"external_link":true,"filename_case":0,"render_drafts":false,"post_asset_folder":false,"relative_link":false,"future":true,"highlight":{"enable":false,"line_number":true,"auto_detect":true,"tab_replace":true},"default_category":"uncategorized","category_map":null,"tag_map":null,"date_format":"YYYY-MM-DD","time_format":"HH:mm:ss","per_page":0,"pagination_dir":"page","theme":"hexo-theme-doc","deploy":{"type":"git","repo":"https://github.com/o2team/halojs.git"},"archive_generator":{"per_page":0,"yearly":true,"monthly":true,"daily":false},"category_generator":{"per_page":0},"index_generator":{"per_page":0},"tag_generator":{"per_page":0},"marked":{"gfm":true,"pedantic":false,"sanitize":false,"tables":true,"breaks":true,"smartLists":true,"smartypants":true},"server":{"log":false,"ip":"0.0.0.0"}}'
 		);
 		hexo.theme = JSON.parse(
-			'{"title":"Hexo","subtitle":null,"description":null,"author":"o2team","language":null,"timezone":null,"url":"http://aotu.io/halojs","root":"/halojs/","permalink":"api/:title.html","permalink_defaults":{},"source_dir":"source","public_dir":"public","tag_dir":"tags","archive_dir":"archives","category_dir":"categories","code_dir":"downloads/code","i18n_dir":":lang","skip_render":["demo/**","src/**"],"new_post_name":":title.md","default_layout":"doc","titlecase":false,"external_link":true,"filename_case":0,"render_drafts":false,"post_asset_folder":false,"relative_link":false,"future":true,"highlight":{"enable":false,"line_number":true,"auto_detect":true,"tab_replace":true},"default_category":"uncategorized","category_map":null,"tag_map":null,"date_format":"YYYY-MM-DD","time_format":"HH:mm:ss","per_page":0,"pagination_dir":"page","theme":"hexo-theme-doc","deploy":{"type":"git","repo":"https://github.com/o2team/halojs.git"},"archive_generator":{"per_page":0,"yearly":true,"monthly":true,"daily":false},"category_generator":{"per_page":0},"tag_generator":{"per_page":0},"index_generator":{"per_page":0},"marked":{"gfm":true,"pedantic":false,"sanitize":false,"tables":true,"breaks":true,"smartLists":true,"smartypants":true},"server":{"log":false,"ip":"0.0.0.0"},"Comment":"Disqus"}'
+			'{"title":"Hexo","subtitle":null,"description":null,"author":"o2team","language":null,"timezone":null,"url":"http://aotu.io/halojs","root":"/halojs/","permalink":"api/:title.html","permalink_defaults":{},"source_dir":"source","public_dir":"public","tag_dir":"tags","archive_dir":"archives","category_dir":"categories","code_dir":"downloads/code","i18n_dir":":lang","skip_render":["demo/**","src/**"],"new_post_name":":title.md","default_layout":"doc","titlecase":false,"external_link":true,"filename_case":0,"render_drafts":false,"post_asset_folder":false,"relative_link":false,"future":true,"highlight":{"enable":false,"line_number":true,"auto_detect":true,"tab_replace":true},"default_category":"uncategorized","category_map":null,"tag_map":null,"date_format":"YYYY-MM-DD","time_format":"HH:mm:ss","per_page":0,"pagination_dir":"page","theme":"hexo-theme-doc","deploy":{"type":"git","repo":"https://github.com/o2team/halojs.git"},"archive_generator":{"per_page":0,"yearly":true,"monthly":true,"daily":false},"category_generator":{"per_page":0},"index_generator":{"per_page":0},"tag_generator":{"per_page":0},"marked":{"gfm":true,"pedantic":false,"sanitize":false,"tables":true,"breaks":true,"smartLists":true,"smartypants":true},"server":{"log":false,"ip":"0.0.0.0"},"Comment":"Disqus"}'
 		);
 		hexo.path = 'api/imgPlayer.html';
 	</script>
